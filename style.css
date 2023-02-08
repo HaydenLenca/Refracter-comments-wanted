@@ -9,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* used to style header and nav links */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,7 +43,8 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* end of header */
+ 
 a {
     color: #ffffff;
     text-decoration: none;
@@ -52,6 +54,7 @@ p {
     font-size: 16px;
 }
 
+/* class calles background image under header */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,6 +64,7 @@ p {
     background-position: center;
 }
 
+/* float classes are used to place images on left side and right side */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,6 +75,7 @@ p {
     margin-left: 25px;
 }
 
+/* used to style main */
 .content {
     width: 75%;
     display: inline-block;
@@ -131,7 +136,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* end main */
 
+/* used to style aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -190,7 +197,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* end aside */
 
+/* used to style footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -202,3 +211,4 @@ p {
 .footer h4 {
     font-size: 20px;
 }
+/* end footer */
