@@ -33,9 +33,7 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
+/* removed .header nav ul */
 
 .header nav ul li {
     display: inline-block;
@@ -47,9 +45,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/* removed p */
 
 .hero {
     height: 800px;
@@ -134,3 +130,8 @@ p {
 .footer h4 {
     font-size: 20px;
 }
+
+@media screen and (max-width: 1020px) {
+    .header {
+      flex-direction: column;
+    }
