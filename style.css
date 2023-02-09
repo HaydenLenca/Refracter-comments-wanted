@@ -54,7 +54,7 @@ p {
     font-size: 16px;
 }
 
-/* class calles background image under header */
+/* class calls background image under header */
 .hero {
     height: 800px;
     width: 100%;
@@ -75,7 +75,7 @@ p {
     margin-left: 25px;
 }
 
-/* used to style main */
+/* used to style section */
 .content {
     width: 75%;
     display: inline-block;
@@ -136,7 +136,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* end main */
+/* end section */
 
 /* used to style aside */
 .benefits {
@@ -197,6 +197,26 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* the aside and section can be condensed to three classes instead of nine */
+/*
+.benefit-info {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-info h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-info img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+I did not condense files incase specific articles need to be changed
+*/
 /* end aside */
 
 /* used to style footer */
